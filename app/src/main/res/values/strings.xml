@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">forex</string>
+    <string name="title_activity_layout">layout</string>
+    <string name="title_activity_intentactivity">intentactivity</string>
+    <string name="title_activity_forms">forms</string>
+    <string name="title_activity_destinationactivity">Destinationactivity</string>
+    <string name="title_activity_exploreactivity">exploreactivity</string>
+    <string name="title_activity_assignment1">assignment1</string>
+    <string name="title_activity_lottieactivity">lottieactivity</string>
+    <string name="title_activity_splashactivity">splashactivity</string>
+    <string name="title_activity_screenactivity">screenactivity</string>
+    <string name="title_activity_secondscreenactivity">secondscreenactivity</string>
+    <string name="title_activity_thirdscreenactivity">thirdscreenactivity</string>
+</resources>

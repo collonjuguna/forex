@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Forex"
+        tools:targetApi="31">
+        <activity
+            android:name=".thirdscreenactivity"
+            android:exported="false"
+            android:label="@string/title_activity_thirdscreenactivity"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".secondscreenactivity"
+            android:exported="false"
+            android:label="@string/title_activity_secondscreenactivity"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".screenactivity"
+            android:exported="false"
+            android:label="@string/title_activity_screenactivity"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".splashactivity"
+            android:exported="true"
+            android:label="@string/title_activity_splashactivity"
+            android:theme="@style/Theme.Forex">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lottieactivity"
+            android:exported="false"
+            android:label="@string/title_activity_lottieactivity"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".assignment1"
+            android:exported="false"
+            android:label="@string/title_activity_assignment1"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".exploreactivity"
+            android:exported="false"
+            android:label="@string/title_activity_exploreactivity"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".Destinationactivity"
+            android:exported="false"
+            android:label="@string/title_activity_destinationactivity"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".forms"
+            android:exported="false"
+            android:label="@string/title_activity_forms"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".intentactivity"
+            android:exported="false"
+            android:label="@string/title_activity_intentactivity"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".layout"
+            android:exported="false"
+            android:label="@string/title_activity_layout"
+            android:theme="@style/Theme.Forex" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Forex" />
+    </application>
+
+</manifest>
